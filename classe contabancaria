@@ -1,0 +1,83 @@
+package testefinal;
+
+public class contaBancaria {
+
+private int numerodaconta;
+private String banco;
+private int agencia;
+private String tipodaconta;
+private double saldoatual;
+private double limitedisponivel;
+
+public void setConta ( int numeroConta ) {
+
+this.numerodaconta = numeroConta;
+
+}
+
+public int getConta ( ) {
+
+return this.numerodaconta;
+
+}
+
+public void setBanco ( String nomeBanco) {
+
+this.banco = nomeBanco;
+
+}
+
+public String getBanco ( ) {
+
+return this.banco;
+
+}
+
+public void setAgencia (int numeroAgencia) {
+
+this.agencia = numeroAgencia;
+
+}
+
+public int getAgencia ( ) {
+
+return this.agencia; 
+}
+
+public void setTipo (String tipoConta) {
+
+this.tipodaconta = tipoConta;
+
+}
+
+public String getTipo ( ) {
+
+return this.tipodaconta;
+
+}
+
+public void setSaldo ( double saldoAtual ) {
+
+this.saldoatual = saldoAtual; 
+
+}
+
+public double getSaldo ( ) {
+
+return this.saldoatual;
+
+}
+
+public void setLimitedisp ( double limiteDisponivel ) {
+
+this.limitedisponivel = limiteDisponivel;
+
+}
+
+public double getLimitedisp ( ) {
+
+return this.limitedisponivel;
+
+}
+
+}
